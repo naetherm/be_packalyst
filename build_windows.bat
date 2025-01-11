@@ -6,7 +6,7 @@ if not exist packaged (
 )
 
 :: Define the list of packages
-set packages=lz4 zlib pcre mimalloc mcpp
+set packages=lz4 zlib pcre mimalloc mcpp smolv
 
 :: Loop through each package
 for %%p in (%packages%) do (

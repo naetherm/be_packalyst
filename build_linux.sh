@@ -2,7 +2,7 @@
 
 mkdir -p packaged
 
-packages=(lz4 zlib pcre mimalloc mcpp)
+packages=(lz4 zlib pcre mimalloc mcpp smolv)
 
 for package in ${packages[*]}
 do
