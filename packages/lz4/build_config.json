@@ -11,13 +11,15 @@
     "Platforms":{
        "Windows":{
           "Windows":{
+             "custom_cmake_install":true,
              "cmake_generate_args":[
                 "-G",
                 "\"Visual Studio 17 2022\"",
                 "-DCMAKE_CXX_FLAGS=/Zc:__cplusplus",
                 "-DBUILD_STATIC_LIBS=ON",
                 "-DBUILD_SHARED_LIBS=OFF",
-                "-Dgtest_force_shared_crt=ON"
+                "-Dgtest_force_shared_crt=ON",
+                "src/build/cmake"
              ],
              "cmake_build_args":[
                 "-j"
